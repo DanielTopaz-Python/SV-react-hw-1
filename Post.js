@@ -1,5 +1,4 @@
 // should be located inside a 'Components' directory
-
 import React from 'react'
 
 export default function Post(props) {
@@ -10,6 +9,8 @@ export default function Post(props) {
         <img src={props.img} height="100px" />
         <br/>
         <textarea/>
+        <br/>
+        <button>Edit Post</button>
     </div>
     )
 }
