@@ -1,3 +1,5 @@
+// should be located inside a 'Components' directory
+
 import React from 'react'
 
 export default function Post(props) {
